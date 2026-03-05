@@ -85,8 +85,8 @@ with col_cm2:
     else:
         st.warning(f"⚠️ Waiting for static image at: {cm_path}")
 
-st.markdown("### Grad-CAM Visualization")
 if model_name == 'SOTA-tf':
+    st.markdown("### Grad-CAM Visualization")
     st.image('assets/sota-Grad-CAM.png', width='stretch')
 
 # --- 3. MODEL STATISTICS ---
